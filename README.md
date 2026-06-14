@@ -67,10 +67,6 @@ Load `SKILL.md` first. When the instructions mention a reference file, read that
 BP 第一页帮我看哪里不清楚
 ```
 
-```text
-估值开多少合适
-```
-
 ## Expected First-Step Behavior
 
 For a normal project request, the assistant should not immediately diagnose. It should first read the material already provided by the user, then ask one short intake round based on project facts and material gaps.
