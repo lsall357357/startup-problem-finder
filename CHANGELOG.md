@@ -1,8 +1,17 @@
 # Changelog
 
-## 1.0.0 - 2026-06-15
+## 2.0.0 - 2026-06-21
 
-- Initial universal GitHub-ready release.
-- Supports Codex, Claude Code, OpenClaw, and other agents that can read a standard `SKILL.md` directory.
-- Adds structured references for early-stage startup problem location, BP review, investor blockers, meeting-risk preparation, funding-path fit, safety boundaries, and source-protection behavior.
-- Adds lightweight validation and packaging scripts using only the Python standard library.
+- Renamed the skill to `startup-problem-finder`.
+- Converted the complete package to English while preserving multilingual responses.
+- Required material review before the first intake round.
+- Prevented intake responses from exposing the later diagnosis structure.
+- Kept value-anchor extraction and grading backstage.
+- Added professional roast and VC-lens trigger boundaries.
+- Separated feature-introduction requests from project diagnosis.
+- Clarified public-repository source protection and host-controlled privacy.
+- Added CJK validation, GitHub Actions validation, and safer release packaging.
+
+## 1.0.0 - 2026-06-14
+
+- Initial cross-agent package.

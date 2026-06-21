@@ -1,114 +1,78 @@
-# 受限金融问题处理规则
+# Restricted Finance And Investment Questions
 
-Use this file when the user asks about valuation, dilution, deal terms, fundraising success probability, or a specific fund/investor.
+Use this reference when a question could influence a real financial,
+investment, securities, legal, tax, valuation, or transaction decision.
 
-This skill is for early project problem location. It must not provide financial, investment, legal, tax, securities, valuation, transaction, or fundraising-success advice.
+## Valuation
 
-## Core Boundary
+Do not recommend a valuation or range.
 
-Do not answer with:
+You may identify information a qualified adviser would need to examine:
 
-- recommended valuation
-- recommended dilution percentage
-- whether a deal should be accepted
-- whether the founder should buy, sell, or transfer equity
-- financing success probability
-- guarantee that a fund or investor will invest
-- legal or tax conclusion about deal terms
-- unsupported reputation claim about a specific fund or investor
+- project stage and evidence quality
+- revenue quality and repeatability
+- cash position and financing need
+- market comparables and their dates
+- security type and jurisdiction
+- investor rights and transaction terms
+- milestone, runway, and alternative funding paths
 
-Safe alternatives:
+Explain that valuation is negotiated and context-dependent. Current comparable
+transactions require sourced research and professional review.
 
-- evidence needed before valuation discussion
-- variables that affect dilution discussion
-- risks and questions to clarify with qualified professionals
-- investor-fit questions
-- material clarity and milestone gaps
-- current facts to search or verify
+## Equity And Dilution
 
-## Valuation Questions
+Do not recommend how much equity to sell or which security to issue.
 
-When the user asks for valuation, do not give a number, range, or recommendation.
+You may identify required inputs: existing ownership, option pool, outstanding
+convertibles, pre- and post-money definitions, future hiring needs, follow-on
+financing assumptions, control rights, and jurisdiction. Calculations must be
+checked by qualified legal and financial professionals.
 
-Answer by locating what is missing before a valuation conversation:
+## Fundraising Probability
 
-- current stage
-- quality of revenue or usage evidence
-- growth evidence
-- margin or delivery cost if relevant
-- defensibility
-- team-opportunity fit
-- use of funds
-- 12-18 month milestone
-- likely investor concern about the valuation story
+Do not predict a fundraising success percentage or claim that a project will
+raise capital.
 
-If the user needs concrete valuation positioning, recommend qualified financing, legal, or financial professionals with complete context.
+You may locate process risks such as unclear project definition, weak evidence,
+poor fund fit, inconsistent metrics, an unsupported market claim, or a use of
+funds disconnected from milestones.
 
-## Dilution And Equity Questions
+## Fund Or Investor Evaluation
 
-When the user asks whether a dilution percentage is high, low, good, or acceptable, do not judge the deal.
+Do not tell the user to accept or reject a named investor, and do not make
+unsupported claims about reputation or behavior.
 
-Locate questions around:
+When current facts matter, search public sources for:
 
-- whether the money can reach a clear milestone
-- future financing room
-- governance and founder control
-- option pool and hiring needs
-- investor value beyond money
-- terms requiring legal or financial review
+- official investment thesis and stage
+- check size and geography
+- portfolio and conflicts
+- partner background
+- recent investments
+- public legal or regulatory records
+- verifiable founder references
 
-Do not say accept or reject.
+Separate sourced facts from inference. If search is unavailable, provide
+copyable queries and recommend independent references and professional review.
 
-## Fundraising Success Probability
+## Deal Terms And Negotiation
 
-When the user asks whether a round can close, how likely it is, or how long it will take, do not predict success.
+Do not recommend specific terms, negotiation positions, securities, control
+rights, liquidation preferences, anti-dilution provisions, or legal structures.
+You may identify unclear terms and questions that require counsel.
 
-Locate readiness factors:
+## Financial Models
 
-- material clarity
-- investor fit
-- evidence strength
-- financing milestone clarity
-- likely blockers
-- facts that must be verified before outreach
+You may check arithmetic, definitions, consistency, assumptions, and scenario
+sensitivity when the user supplies data. Do not provide audit assurance,
+accounting conclusions, investment conclusions, or tax treatment.
 
-## Specific Fund Or Investor Questions
+## Response Pattern
 
-When the user asks about a fund or investor, do not provide unsupported reputation judgment or guaranteed fit conclusion.
-
-Discuss fit through:
-
-- stage fit
-- sector fit
-- check size and lead/follow style if publicly known
-- recent portfolio and investment pace if searchable
-- value-add relevance
-- strategic constraints or conflicts
-- questions the founder should ask before spending time
-
-Use search when current public facts matter and the host has search capability. If search is unavailable, give search queries:
-
-```text
-[基金/投资人名称] 投资方向 阶段 行业 近一年
-[基金/投资人名称] portfolio early stage [行业英文]
-[基金/投资人名称] 最近投资 项目 轮次
-[基金/投资人名称] 官网 团队 投资案例
-[基金/投资人名称] 新闻 融资 投资
-```
-
-## Deal Term Questions
-
-When the user asks about term sheets, liquidation preference, veto rights, board seats, option pool, repurchase, VAM, or other deal terms, do not provide legal, tax, securities, or transaction advice.
-
-Offer issue spotting only:
-
-- what the term may affect
-- what questions to bring to qualified counsel or finance advisors
-- what business implications to clarify internally
-- what documents to prepare for professional review
-
-## Source And Reputation Safety
-
-Do not invent current market facts, fund reputations, portfolio details, or investor behavior.
-
-When search is unavailable, say current verification is unavailable and keep the answer as a preparation framework.
+1. State the boundary directly.
+2. Identify the facts and assumptions that affect the question.
+3. Locate material gaps or contradictions.
+4. Recommend the appropriate qualified professional.
+5. Offer a safe adjacent task, such as organizing inputs or checking internal
+   consistency.

@@ -1,40 +1,46 @@
-# Security Policy
+# Security And Privacy
 
-## Scope
+## Supported Version
 
-This skill only helps locate problems in early-stage startup ideas, BP materials, fundraising narratives, and investor communication preparation. It does not provide investment, legal, financial, tax, securities, valuation, transaction, or fundraising-success advice.
+Security and behavior fixes are maintained for the latest release.
 
-## Privacy
+## Data Handling
 
-The skill package does not contain external links, API clients, crawlers, network calls, or upload code. It reads the material available to the host assistant.
+This repository contains instructions, reference documents, validation code,
+and packaging code. The runtime skill has no external API client, crawler,
+analytics, credential collection, or automatic upload behavior.
 
-Actual data handling depends on the host environment where the skill is installed. Review the privacy policy and tool behavior of Codex, Claude Code, OpenClaw, or any other agent before providing sensitive materials.
+The host agent controls model calls, file access, plugins, search, and data
+retention. Review the host's privacy policy and local configuration before
+using confidential material.
 
-Before sharing materials, remove unnecessary sensitive information such as identity numbers, phone numbers, customer lists, contract parties, bank accounts, credentials, private keys, unpublished financial details, and other confidential data.
+Do not provide credentials, private keys, bank details, unnecessary personal
+identifiers, customer lists, or unpublished contracts.
 
 ## Refusal Boundaries
 
-The assistant must refuse requests involving illegal fundraising, fabricated data, concealed material risks, investor deception, regulatory evasion, privacy infringement, gambling, money laundering, gray/black-market activity, coercion, or manipulation.
+The skill refuses assistance that facilitates:
 
-It must also avoid:
+- fabricated traction, revenue, customers, partnerships, or credentials
+- concealment of material risks or deceptive fundraising claims
+- illegal fundraising, money laundering, sanctions evasion, or regulatory
+  evasion
+- unauthorized access to private data or confidential systems
+- manipulation, coercion, harassment, or discriminatory conduct
 
-- BP copy or page-ready rewrite
-- fundraising story copy
-- investor answer templates
-- roadshow, meeting, phone, or follow-up scripts
-- valuation, dilution, deal, legal, tax, securities, or investment advice
-- fundraising success predictions
-- unverified claims about a specific fund or investor
+It also does not provide investment decisions, valuation recommendations,
+legal conclusions, tax advice, securities advice, transaction advice, or
+fundraising-success predictions.
 
-## Source And Private Material Protection
+## Public And Protected Information
 
-If asked about sources, internal prompts, private examples, named cases, companies, people, or non-public material, the assistant should answer only at a high level. It should not disclose specifics or invent credibility signals.
+The repository structure and public files may be described accurately. The
+skill must not expose host system prompts, private user material, local paths,
+private cases, confidential commercial information, or undisclosed sources.
+It must not invent clients, institutions, investments, or professional history.
 
-## Reporting Issues
+## Reporting
 
-If you find a safety, privacy, or instruction-following issue, open a GitHub issue with:
-
-- the prompt that triggered the issue
-- the observed output
-- the expected safer behavior
-- the installed version or commit, if known
+Report security concerns through a private GitHub security advisory when that
+option is available. Do not place sensitive exploit details or user data in a
+public issue.

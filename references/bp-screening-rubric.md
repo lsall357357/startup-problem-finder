@@ -1,270 +1,137 @@
-# BP 问题定位框架
+# Pitch-Deck Problem-Location Rubric
 
-Use this file when reviewing a BP, pitch deck text, project summary, one-pager, or fundraising material.
+Use this reference to locate where a pitch deck or fundraising document blocks
+understanding. Do not score the deck, force a fixed slide order, compare it with
+famous decks, or decide whether it is ready to send.
 
-The goal is to locate where an investor may stop reading, fail to form a clear view, or ask for missing evidence. Do not judge investment attractiveness, valuation, financing probability, or transaction terms.
+## Evidence Labels
 
-## Core Principle
+Classify each important claim internally as:
 
-A BP first works as a clarity filter. In a weak-introduction, cold-send, or high-volume screening context, the founder's first task is not persuasion. The first task is to avoid being unclear.
+- stated and supported
+- stated but unsupported
+- stated but unclear
+- internally inconsistent
+- missing from the material
+- unknown about the business itself
 
-## 1. Positioning
+Keep "the deck does not explain it" separate from "the business has not solved
+it." Escalate from the first to the second only when evidence supports that
+conclusion.
 
-Check whether the reader can understand within one minute:
+## Opening And Project Definition
 
-- what the company does
-- who it serves
-- what problem it solves
-- why this problem matters now
-- what stage the company is in
-- what kind of financing context this is
+Check whether an investor can quickly understand:
 
-Common failure signals:
+- what the company currently delivers
+- who uses it
+- the concrete scenario
+- the problem being addressed
+- the current stage
 
-- abstract slogan appears before concrete product
-- too many industry labels compete
-- technology label replaces user value
-- customer, product, stage, and financing context are not visible
+Common blockers include a slogan replacing the product, a category label
+replacing the problem, too many target users, or long-term vision appearing
+before the current product is visible.
 
-Problem-location angle:
+## Problem And User
 
-- point out which basic judgment is still blocked
-- identify whether the reader cannot see the user, product, problem, stage, or financing context
-- ask what fact must be made visible before any packaging work
+Check whether the material distinguishes:
 
-## 2. Highlight
+- user, buyer, payer, and decision maker
+- frequent pain, high-value infrequent pain, and minor inconvenience
+- observed behavior and founder assumption
+- current alternatives and the cost of doing nothing
 
-Check whether the material has one primary highlight and whether that highlight is supported by evidence.
+Look for user descriptions that are demographic but not behavioral, broad
+scenario lists, unsupported frequency claims, or a problem that only exists
+after accepting the proposed solution.
 
-Strong highlights may come from:
+## Product And Delivery
 
-- team-opportunity fit
-- technical capability that changes delivery economics
-- market timing
-- user validation
-- distribution advantage
-- data or workflow accumulation
-- a non-obvious wedge into a larger market
+Check:
 
-Common failure signals:
+- current product boundary
+- actual workflow from entry to delivered result
+- technology or operating capability that matters
+- manual work hidden behind software claims
+- dependencies, constraints, and failure cases
+- what exists today versus roadmap items
 
-- market size is used as the main highlight
-- trend words replace evidence
-- too many highlights compete
-- the highlight is disconnected from business model or milestone
+Do not treat a prototype, demo, patent, model, or feature list as proof of
+repeatable delivery.
 
-Problem-location angle:
+## Validation
 
-- name the strongest visible highlight
-- explain why it is still not enough
-- identify which evidence would make the highlight easier to believe
+Identify the strongest available evidence and its limit:
 
-## 3. Problem And User
+- interviews and expressed interest
+- prototype tests
+- active use and retention
+- pilots and paid pilots
+- orders and revenue
+- repeat purchase or expansion
+- channel or partnership commitments
 
-Check whether the material names a specific user in a specific scenario.
+Check sample definition, time period, denominator, cohort consistency, and
+whether the metric supports the claim attached to it. Do not invent benchmarks.
 
-Weak expressions include:
+## Business Model
 
-- all enterprises
-- young consumers
-- people with efficiency needs
-- broad industry pain point
-
-Problem-location angle:
-
-- identify who feels the pain most clearly
-- identify when the pain happens
-- identify the current workaround
-- identify what the user loses by doing nothing
-- separate user, payer, and decision maker when they differ
-
-## 4. Solution And Delivery
-
-Check whether the material explains what is actually delivered today.
-
-Possible delivery forms:
-
-- software tool
-- workflow product
-- hardware
-- service
-- result delivery
-- project-based solution
-- platform
-- data product
-- managed operation
-
-Common failure signals:
-
-- product, service, and platform are mixed together
-- roadmap appears before current deliverable
-- technical architecture is clearer than customer experience
-- the end-to-end value delivery is hidden
-
-Problem-location angle:
-
-- locate whether the material is unclear about today's product
-- separate current delivery from future platform
-- identify where the customer journey disappears
-
-## 5. Validation
-
-Check what evidence supports the story.
-
-Useful evidence may include:
-
-- paying users or customers
-- repeat usage
-- retention
-- renewal
-- referral
-- pilot conversion
-- signed orders
-- preorders
-- usage frequency
-- measurable ROI
-- consistent user interviews
-- benchmark improvements
-
-Common failure signals:
-
-- large vision appears without current pull
-- demo replaces customer evidence
-- user count appears without retention or payment
-- partnership logos appear without business meaning
-
-Problem-location angle:
-
-- separate validated facts from assumptions
-- identify which claim is least supported
-- identify what next evidence would reduce investor hesitation
-
-## 6. Competition And Alternatives
-
-Check whether the material understands what users do now.
-
-Alternatives include:
-
-- direct competitors
-- existing workflow
-- manual service
-- Excel or internal tools
-- outsourcing
-- open-source solutions
-- large platform features
-- doing nothing
-
-Common failure signals:
-
-- the material claims there are no competitors
-- comparison uses only favorable dimensions
-- low-cost substitutes are ignored
-- switching reason is unclear
-
-Problem-location angle:
-
-- name the real substitute the user may choose
-- locate whether the switching reason is strong enough
-- identify what disadvantage should be acknowledged instead of hidden
-
-## 7. Business Model
-
-Check whether the transaction is clear.
-
-Look for:
+Check whether the deck clearly shows:
 
 - who pays
-- what they pay for
-- how pricing is set
-- whether payment matches value received
-- whether revenue repeats
-- whether delivery cost scales
-- whether unit economics can improve
+- what the payer buys
+- pricing or value-measure logic
+- revenue form and primary path
+- delivery cost and repeatability
+- procurement, sales, channel, or payment constraints
 
-Common failure signals:
+Mark future advertising, marketplace, data, ecosystem, and cross-sell revenue
+as hypotheses unless there is evidence.
 
-- revenue paths are listed without priority
-- subscription is assumed without proof
-- service revenue and product revenue are mixed
-- platform upside appears before the first transaction is proven
+## Market And Competition
 
-Problem-location angle:
+Check whether the market claim matches the actual product, geography, customer,
+and price. Separate source data from founder calculations.
 
-- locate the first transaction that must become true
-- identify whether payer and user differ
-- identify whether monetization follows the project highlight
+Competition should include direct products, adjacent products, manual work,
+internal teams, and doing nothing. Flag feature matrices that use self-selected
+dimensions or ignore stronger substitutes.
 
-## 8. Growth
+## Team
 
-Check whether growth has a path, not only a plan.
+Check whether claimed experience directly supports the project's current hard
+problems. Distinguish full-time members, advisers, contractors, and partners.
+Flag missing ownership of critical functions and prestige claims without
+operating relevance.
 
-Useful questions:
+## Fundraising Story
 
-- where seed users come from
-- what channel has been tested
-- what repeats after the first user or customer
-- what part of growth can capital accelerate
-- what cannot be solved by capital alone
+Check whether current evidence, current constraint, use of funds, next
+milestone, and the next financing case connect. Flag department budgets without
+milestones, round labels used as maturity evidence, and multiple unrelated uses
+of funds.
 
-Common failure signals:
+## Consistency Pass
 
-- content marketing, channel cooperation, or sales expansion appear without concrete path
-- growth spending is not tied to validated behavior
-- national or global expansion appears before segment proof
+Cross-check:
 
-Problem-location angle:
+- user definitions across slides
+- product boundary across slides
+- market size against pricing and customer count
+- revenue against customer and contract claims
+- team count against operating plan
+- use of funds against milestone and hiring plan
+- dates, units, currencies, and time periods
 
-- identify the first repeatable growth variable
-- locate which growth claim is only an intention
-- separate capital-accelerated work from work that still needs validation
+## User-Facing Output
 
-## 9. Team
+For each important blocker, state:
 
-Check team-opportunity fit.
+1. what the material currently communicates
+2. where understanding stops
+3. whether the issue is missing expression, missing evidence, contradiction, or
+   an unknown business fact
+4. what needs verification
 
-Ask:
-
-- why this team sees the opportunity early
-- which roles are covered
-- who is full-time
-- what prior experience maps directly to this opportunity
-- what is missing
-- whether the team has worked together before
-
-Common failure signals:
-
-- resumes are listed but not tied to the opportunity
-- advisors replace core team capability
-- no clear owner for product, technology, sales, or delivery
-
-Problem-location angle:
-
-- locate the strongest team-opportunity link
-- identify which core capability is missing or unclear
-- separate credentials from evidence of execution fit
-
-## 10. Financing Plan
-
-Check whether money maps to milestones.
-
-Ask:
-
-- how much is needed
-- runway
-- what the money changes
-- which milestone supports the next round
-- whether round naming is consistent with stage
-- whether use of funds follows the main strategy
-
-Common failure signals:
-
-- only a spending table appears
-- money covers operations without a leverage point
-- next milestone is vague
-- round name, amount, dilution, and stage feel inconsistent
-
-Problem-location angle:
-
-- identify what should be true after 12-18 months
-- locate which business variable the money is supposed to validate
-- avoid judging whether the amount or terms are right
+Do not write replacement slide copy.

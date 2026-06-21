@@ -1,100 +1,94 @@
-# 投资人追问题库
+# Investor Question Bank
 
-Use this file to generate investor follow-up questions.
+Select only questions that match the project. Do not dump the entire bank and
+do not provide answers or answer templates.
 
-In first diagnosis, list questions only and do not answer them. If the user later asks how to prepare, explain what the question tests and what evidence should be ready. Do not provide answer text or spoken scripts.
+## Project And Problem
 
-## Product And Problem
+- What does the company deliver today?
+- Who uses it, and in what specific situation?
+- What problem occurs before this product exists?
+- How do users handle the problem now?
+- What makes the problem urgent or costly?
+- Why is this problem more important now?
 
-- 你们现在到底交付的是什么？
-- 用户具体怎么使用这个产品或服务？
-- 这个问题发生在什么场景里？
-- 如果没有你们，用户现在怎么处理？
-- 这个问题是高频、低频高价值，还是偶发但代价很高？
-- 为什么这个问题现在变得更值得解决？
+## User Evidence
 
-These questions test whether the founder understands the real user scenario and whether the solution is more than a concept or demo.
+- Which user behavior has been directly observed?
+- Who experiences the strongest version of the problem?
+- What evidence separates interest from actual use?
+- What causes a user to return or stop returning?
+- What has been learned from failed tests or negative feedback?
+- Which assumptions still have no direct evidence?
 
-## Demand Strength
+## Product And Delivery
 
-- 需求是真的，还是你们推测出来的？
-- 用户有没有为这个问题付出过钱、时间或组织成本？
-- 用户愿意持续使用，还是只愿意试一次？
-- 谁最痛，谁最愿意先试？
-- 需求强度从哪些行为里能看出来？
-
-These questions test whether pain is backed by behavior evidence, payment, retention, or repeated use.
-
-## Product Boundary
-
-- 你们是工具、产品、服务、平台，还是结果交付？
-- 当前为什么停在这个边界？
-- 如果工具有效，为什么不继续吃下游价值？
-- 当前边界是主动选择，还是能力限制？
-- 未来扩展的前提是什么？
-
-These questions test value-chain position, pricing power, roadmap discipline, and whether the company knows what it is selling now.
+- What part of the product works today?
+- What is still manual, experimental, or dependent on a founder?
+- What result does the user receive?
+- Which capability is difficult to reproduce?
+- What fails under higher volume or more complex cases?
+- Which roadmap items are required before repeatable delivery?
 
 ## Business Model
 
-- 谁付费？
-- 付费买的是什么？
-- 定价依据是什么？
-- 收入是一次性、订阅、项目制、佣金、增值服务，还是混合？
-- 交付成本如何变化？
-- 现在的收入结构能否复制？
+- Who uses, buys, pays, and approves the purchase?
+- What exactly is purchased?
+- What determines the price?
+- Which revenue path is primary now?
+- What does delivery cost, and how does that change with scale?
+- What makes the transaction repeat?
+- Which revenue ideas are current and which are future hypotheses?
 
-These questions test transaction clarity, repeatability, value-price match, and delivery scalability.
+## Go-To-Market
 
-## Market And Growth
+- Where do the first customers come from?
+- What starts a buying process?
+- How long does conversion take?
+- Which channel has produced evidence rather than interest?
+- What part of sales depends on the founder?
+- What would make acquisition uneconomic or operationally difficult?
 
-- 你们先切哪一块市场？
-- 为什么从这个切口开始？
-- 第一批用户从哪里来？
-- 当前获客方式验证了吗？
-- 这轮钱投进去，会放大哪个增长变量？
-- 如果三年后仍停在当前规模，原因可能是什么？
+## Market And Competition
 
-These questions test market segmentation, wedge logic, capital leverage, and growth realism.
-
-## Competition
-
-- 现有替代方案是什么？
-- 用户为什么会从现有方案切换？
-- 你们和竞品的差异是功能、路径、成本、体验、数据，还是渠道？
-- 最容易被复制的是什么？
-- 如果大平台进入，你们还剩什么优势？
-
-These questions test competitive awareness, switching reason, and defensibility.
+- What is the smallest market definition that matches the current product?
+- Which alternatives compete for the same budget or behavior?
+- Why would a user switch from the current solution?
+- Which competitor has the strongest distribution advantage?
+- Which claimed difference matters to customers?
+- What remains defensible if a larger company enters?
 
 ## Team
 
-- 为什么是你们做这件事？
-- 团队的哪些经历直接对应这个机会？
-- 哪些人是全职？
-- 关键职能是否有人负责？
-- 团队最大的短板是什么？
-- 如果换一拨人来做，最难复制的是哪部分？
+- Which team experience directly supports the project's hardest problem?
+- Who is full time?
+- Who owns product, sales, delivery, technology, and compliance?
+- Which critical capability is missing?
+- What depends on one person?
+- Why is this team positioned to learn faster than alternatives?
 
-These questions test team-opportunity fit, commitment, execution capacity, and missing roles.
+## Validation And Metrics
 
-## Financing
+- What is the strongest current evidence?
+- What is the denominator and time period behind each metric?
+- Are usage and revenue figures cohort-consistent?
+- What is repeat behavior rather than cumulative activity?
+- Which metric would most likely change the current judgment?
+- What evidence contradicts the preferred interpretation?
 
-- 这轮融多少钱？
-- 这笔钱主要打到哪个节点？
-- 钱会优先投入哪几个变量？
-- 12-18 个月后希望拿什么结果见下一轮投资人？
-- 当前轮次和项目阶段是否匹配？
-- 如果融不到目标金额，计划如何调整？
+## Fundraising Story
 
-These questions test capital discipline, milestone clarity, stage fit, and financing-story closure.
+- Why is capital needed now?
+- What current constraint will it remove?
+- Which milestone should the capital produce?
+- What uncertainty will that milestone reduce?
+- How does the milestone support the next stage?
+- What changes if the company raises less or raises later?
 
-## Risks
+## Risk
 
-- 当前最大风险是什么？
-- 哪个假设如果不成立，项目会明显受影响？
-- 哪些风险已经验证过，哪些还没有？
-- 如果获客成本、交付成本或转化率不如预期，怎么办？
-- 哪些合规、供应链、数据、交付风险必须提前处理？
-
-These questions test honesty, risk awareness, and whether the founder knows what remains unproven.
+- Which assumption would most damage the project if false?
+- Which legal, regulatory, data, supply-chain, or delivery risks require review?
+- Which customer or partner dependency is concentrated?
+- What has to remain true for unit economics to improve?
+- Which facts are still unknown because the material does not contain them?

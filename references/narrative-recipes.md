@@ -1,132 +1,111 @@
-# 融资故事断点识别
+# Value Anchor, Business Model, And Fundraising Story
 
-Use this file when clarifying value anchor, business model, financing story, positioning, main line, or multiple directions.
+Use this reference for the three core judgments. Keep the analysis structured
+internally and the answer natural and project-specific.
 
-This file is for diagnosis only. Do not create BP copy, written positioning copy, fundraising highlight copy, or investor-facing answer text.
+## Value Anchor
 
-## Value Anchor Diagnosis
+The value anchor measures whether an investor can see what the project is
+actually doing. It does not measure investability, proof, willingness to pay,
+or market attractiveness.
 
-价值锚点只判断一件事：投资人能不能看清项目到底在做什么。Do not use it to judge whether the project is investable, proven, monetizable, or strategically attractive.
+Internally inspect:
 
-Check only these five elements:
+1. capability: the technology, operational ability, asset, or method used
+2. product or service: what is delivered
+3. user: who directly uses or receives it
+4. scenario: where and when the need appears
+5. problem: what friction, cost, risk, or unmet need is addressed
 
-- what capability, technology, workflow, data, resource, or delivery advantage is used
-- what product or service is delivered
-- who the user or served customer is
-- in which scenario the problem appears
-- what problem is solved
+Internal clarity scale:
 
-Internal clarity levels:
+- five visible elements: basically clear
+- four visible elements: relatively clear
+- three visible elements: not very clear
+- two visible elements: unclear
+- zero or one visible element: completely unclear
 
-- 5 visible elements: 价值锚点基本清晰
-- 4 visible elements: 价值锚点比较清晰
-- 3 visible elements: 价值锚点不太清晰
-- 2 visible elements: 价值锚点不清晰
-- 0-1 visible elements: 价值锚点完全不清晰
+This scale is backstage reasoning. Do not show it, mention "five elements", or
+enumerate extracted fields in the user answer. State the clarity conclusion and
+then explain every relevant gap in project-specific prose.
 
-Boundary rules:
+Keep these questions outside the value-anchor judgment:
 
-- Do not count payer, pricing, repeat revenue, or payment willingness as value-anchor elements. Handle them under `商业模式`.
-- Do not count validation data, retention, evidence quality, growth path, use of funds, or next milestone as value-anchor elements. Handle them under `融资故事`, material gaps, or investor blockers.
-- If the five elements are visible but evidence is thin, write that the value anchor is clear enough and the evidence is still thin. Do not lower value-anchor clarity because proof is missing.
-- If product, user, scenario, and problem are visible but payer is unclear, keep value-anchor clarity separate from business model clarity.
-- Write user-facing answers in natural prose. Keep the phrase `价值锚点`, but do not make it look like a form label.
+- buyer, payer, pricing, recurring revenue, and willingness to pay belong to
+  the business model
+- validation, retention, growth, evidence quality, use of funds, and milestones
+  belong to the fundraising story or evidence gaps
+- investor belief and investability require broader judgment and must not be
+  reduced to value-anchor clarity
 
-## Business Model Diagnosis
+A project can have a basically clear value anchor and still have no validation,
+unclear monetization, or a broken fundraising story.
 
-A clear business model should make the first transaction understandable.
+## Business Model
 
-Locate whether the material shows:
+Judge whether the material clearly explains the transaction and delivery
+logic. Do not claim that a clear model is proven or attractive.
 
-- who pays
-- what is being bought
-- why the payer accepts the price
-- whether payment repeats
-- whether delivery cost scales
-- whether monetization follows the main highlight
-- whether future revenue paths depend on proof that does not yet exist
+Inspect:
 
-When many revenue paths appear, do not say they are all wrong. Locate which one must be tested first, and which ones belong to future expansion or hypotheses.
+- user, buyer, payer, and decision maker
+- what is purchased and why
+- pricing or value-measure logic
+- revenue form and priority
+- delivery cost and operational burden
+- gross-margin direction when evidence exists
+- repeatability and dependence on founder labor
+- sales, channel, procurement, or payment constraints
 
-Keep the phrase `商业模式` in the answer, but write it as analysis, not a score.
+Common breaks:
 
-## Fundraising Story Diagnosis
+- many monetization ideas with no primary path
+- user and payer are treated as the same without evidence
+- the project describes revenue but not the transaction
+- subscription is assumed without recurring value
+- hardware margin, consumables, services, and software are mixed together
+- scale claims ignore delivery or sales capacity
+- future ecosystem revenue is used to hide an unproven first transaction
 
-A financing story becomes easier to understand when these parts connect to one main line:
+When several models appear, identify the one that needs first validation and
+classify the others as later options or hypotheses.
 
-1. concrete problem
-2. current product or service
-3. validation signal
-4. growth or expansion path
-5. use of funds
-6. 12-18 month milestone
-7. why the next round becomes more credible
+## Fundraising Story
 
-Locate the break when:
+Judge whether the current facts form a coherent reason for capital now and a
+credible next milestone. Do not judge financing probability.
 
-- the story starts from one highlight but monetization points elsewhere
-- use of funds does not strengthen the main highlight
-- growth plan depends on an unproven channel
-- validation proves interest but not payment or retention
-- the team story does not connect to the opportunity
-- the next milestone sounds like activity rather than proof
+Inspect whether these parts connect:
 
-Keep the phrase `融资故事` in the answer, but do not provide finished story copy.
+- current project state
+- problem and market timing
+- product and validation evidence
+- current constraint
+- use of funds
+- 12-18 month milestone
+- what the milestone proves
+- why that proof matters for the next stage
 
-## Common Breaks
+Common breaks:
 
-### Too Many Main Lines
+- the deck asks for capital without naming the constraint it removes
+- use of funds lists departments rather than project milestones
+- the next milestone does not reduce the project's central uncertainty
+- historical evidence and future ambition have no bridge
+- several products or markets compete for the same financing main line
+- the round name is used as proof of maturity
+- vision appears before the first repeatable transaction is explained
 
-Symptoms:
+## Direction-Level Checks
 
-- technology story, product story, service story, community story, and ecosystem story appear together
-- each direction sounds reasonable alone
-- the investor cannot tell which assumption must be tested first
+Allowed checks include:
 
-Diagnosis direction:
+- clarify the current main line
+- separate verified facts from assumptions
+- reconcile conflicting numbers or claims
+- identify the transaction that needs first proof
+- connect capital use to a measurable milestone
+- move long-term options out of the current financing claim
 
-- identify the strongest current main line
-- move secondary tracks into roadmap, appendix, future goal, next-round support, strategic imagination, or hypothesis
-- explain which track should be tested first and why
-
-### Current Product Is Hidden
-
-Symptoms:
-
-- vision appears before current deliverable
-- future platform appears before first user or customer
-- technology stack appears before user experience
-
-Diagnosis direction:
-
-- locate where the current product disappears
-- separate today from later
-- make clear what the user receives now
-
-### Highlight And Revenue Do Not Match
-
-Symptoms:
-
-- the highlight is technology, but revenue is described as vague services
-- the highlight is community, but proof is only content traffic
-- the highlight is enterprise ROI, but evidence is only user interest
-
-Diagnosis direction:
-
-- identify the mismatch
-- explain why it weakens investor judgment
-- ask what transaction or evidence would connect the highlight to revenue
-
-### Financing Use Is Only Spending
-
-Symptoms:
-
-- use of funds lists hiring, marketing, product, and operations
-- the material does not show what should become true after spending
-- the next-round milestone is not visible
-
-Diagnosis direction:
-
-- locate which business variable the money should validate
-- ask what evidence must exist after 12-18 months
-- avoid giving a fundraising strategy or transaction recommendation
+Do not turn these checks into final deck copy, a written narrative, or an
+investor-answer template.

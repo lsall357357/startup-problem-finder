@@ -1,102 +1,80 @@
-# 找钱路径与资本适配问题定位
+# Funding-Path Problem Map
 
-Use this file when the user asks what kind of funding path may fit the project.
+Use this reference to identify fit questions between a project and a funding
+path. Do not recommend a security, investor, transaction, valuation, or legal
+structure.
 
-Do not provide investment advice, guaranteed fundraising paths, specific investor recommendations, valuation recommendations, or transaction advice.
+## Start With The Constraint
 
-## Core Lens
+Identify what the project currently needs to unlock:
 
-Different capital types ask different questions. The skill should locate mismatch between project stage, evidence, capital expectations, and financing story.
+- customer evidence
+- product development
+- regulated approval
+- manufacturing or inventory
+- distribution
+- working capital
+- research and technical validation
+- hiring or operating capacity
 
-## Angel Or Individual Investors
+Then check whether the proposed capital source matches the constraint, timing,
+evidence level, and expected return profile.
 
-Often care about:
+## Common Paths
 
-- founder credibility
-- problem insight
-- early product or user signal
-- whether the founder can move fast with limited capital
-- whether the round is too early for institutional investors
+### Customer Revenue Or Paid Pilots
 
-Problem signs:
+Useful when customer pain is clear and delivery can begin with limited capital.
+Check sales cycle, customization burden, payment timing, founder dependence, and
+whether pilot revenue can become repeatable business.
 
-- the idea is too broad
-- no clear first user
-- no demo or evidence
-- financing use is mostly survival spending
+### Angels
 
-## Early VC
+Often relevant before institutional evidence exists. Check whether the project
+can explain the first transaction, near-term proof, capital use, and why the
+angel's involvement is useful beyond a personal relationship.
 
-Often care about:
+### Venture Funds
 
-- market expansion potential
-- founder-opportunity fit
-- early pull or non-obvious insight
-- repeatable growth variable
-- why this can become a venture-scale company
-- next-round milestone
+Check whether the project can plausibly produce venture-scale outcomes, whether
+capital accelerates a repeatable mechanism, and whether the next milestone
+reduces a central uncertainty. Do not infer fund fit from sector labels alone.
 
-Problem signs:
+### Strategic Investors
 
-- the business may be healthy but too small
-- growth relies only on manual service
-- the first transaction is unclear
-- there is no reason capital changes the slope
+Check commercial alignment, channel or supply-chain value, exclusivity risk,
+information rights, future financing constraints, and dependence on one
+strategic partner.
 
-## Industry Capital
+### Grants And Public Programs
 
-Often care about:
+Check eligibility, permitted use, reimbursement timing, reporting burden,
+matching requirements, and whether the program distracts from customer proof.
+Current rules require official-source verification.
 
-- strategic relevance
-- channel, supply chain, data, or ecosystem fit
-- integration difficulty
-- conflict with existing partners
-- whether the startup may become too dependent
+### Accelerators And Incubators
 
-Problem signs:
+Check the actual program terms, access, mentor relevance, equity or fees,
+time cost, and evidence of outcomes for similar companies.
 
-- strategic value is asserted but not mapped
-- the startup may lose independence
-- product maturity is not enough for strategic collaboration
+### Debt Or Working-Capital Facilities
 
-## Government, Grant, Accelerator, Or Non-Dilutive Funding
+This skill does not advise on debt. At most, identify whether the project has
+predictable cash flow, repayment capacity, collateral, receivables, or other
+facts that require qualified financial and legal review.
 
-Often care about:
+## Common Mismatches
 
-- policy alignment
-- local industry fit
-- technology, employment, social value, or innovation claim
-- application materials and compliance
-- milestone reporting
+- institutional fundraising before a clear first transaction
+- venture capital used to fund permanently bespoke services
+- strategic money that limits future customers or investors
+- grant applications replacing customer validation
+- round labels copied from peers rather than tied to project stage
+- capital requested for many unrelated tracks
+- use of funds disconnected from measurable milestones
 
-Problem signs:
+## Output Boundary
 
-- the project is packaged as VC-style growth when the funding source needs policy or public-value fit
-- eligibility is not verified
-- compliance and reporting burden is ignored
-
-## Revenue Or Customer-Funded Path
-
-Often fits when:
-
-- the first customers can pay early
-- service or project delivery can finance productization
-- the market is useful but not clearly venture-scale yet
-- evidence is more important than investor branding
-
-Problem signs:
-
-- founders seek VC before proving the first transaction
-- paid pilots are possible but not prioritized
-- financing story depends on future scale without current payment evidence
-
-## User-Facing Output
-
-When answering, locate:
-
-- which capital path currently fits the evidence
-- which path is premature
-- what must be proven before outreach
-- what should be verified with professionals before transaction decisions
-
-Do not name a path as guaranteed. Do not say a specific investor will invest.
+State fit questions, missing evidence, dependencies, and tradeoffs. When current
+fund, program, or policy facts matter, search official sources or provide search
+queries. Do not tell the user which transaction to accept.

@@ -1,98 +1,70 @@
-# 会谈前风险核对
+# Founder-Meeting Risk Preparation
 
-Use this file when the user is preparing for an investor meeting, roadshow, phone call, follow-up discussion, or post-BP review.
+Use this reference to locate meeting risks and preparation gaps. Do not write
+scripts, opening statements, closing lines, objection answers, or follow-up
+messages.
 
-Do not provide word-for-word scripts, investor answer templates, or meeting language.
+## Before The Meeting
 
-## Meeting Purpose
+Check whether the founder can support the project's current claims with:
 
-The founder should not try to explain everything. The meeting should help the investor form a view on a small number of judgments:
+- a consistent project definition
+- current product boundary and stage
+- user, buyer, payer, and transaction path
+- strongest validation evidence and its limits
+- market and competitor sources
+- team ownership of critical functions
+- current constraint, use of funds, and next milestone
+- known risks and unresolved assumptions
 
-- whether the demand is real
-- whether the product or service maps to that demand
-- whether the business can grow beyond a small project
-- whether the team has a specific connection to the opportunity
-- whether the financing round can create a meaningful next milestone
+Identify where the deck, spoken explanation, and underlying evidence may
+conflict.
 
-## Risks To Prepare Before A Meeting
+## Question Risk
 
-### Main Judgment Is Unclear
+Prioritize questions that test:
 
-If the founder does not know what judgment the investor should leave with, the meeting can become a feature walkthrough.
+- whether the problem is observed or assumed
+- why users change behavior
+- whether usage becomes repeat behavior
+- who pays and why
+- what remains manual or hard to scale
+- how the first customers are acquired
+- why the team has an advantage
+- what the financing actually unlocks
+- what fact would disprove the current plan
 
-Locate:
+Use `references/investor-question-bank.md` for a wider selection. List questions
+without supplying answers.
 
-- what one belief the investor must form first
-- whether the evidence supports that belief
-- which claims are still assumptions
+## Evidence Preparation
 
-### Evidence Is Too Thin
+Check that important figures have definitions, periods, denominators, and source
+material. Prepare references to contracts, cohort tables, product evidence,
+customer notes, pipeline detail, technical validation, and operating data only
+when those materials actually exist and may be shared lawfully.
 
-Prepare evidence for:
+## During The Meeting
 
-- target user and current workaround
-- usage or payment signal
-- customer case or pilot progress
-- pricing or ROI logic
-- current delivery cost
-- competitor or alternative comparison
-- founder-opportunity fit
-- 12-18 month milestone
+The skill may remind the user to distinguish facts, estimates, and unknowns;
+record questions that could not be answered; and avoid inventing certainty.
+Do not prescribe exact language.
 
-If evidence is missing, say it is missing. Do not fill it with invented language.
+## After The Meeting
 
-### Topics Should Not Be Improvised
+Organize:
 
-These topics should be clarified before the meeting:
+- questions asked
+- evidence requested
+- misunderstandings in the material
+- new facts or contradictions
+- commitments and owners
+- issues requiring legal, financial, technical, or fundraising review
 
-- why now
-- who pays
-- current product boundary
-- whether the company is a tool, service, product, platform, or result provider
-- current revenue model
-- main growth path
-- use of funds
-- next financing milestone
+Do not draft the follow-up message. Identify what the follow-up must accurately
+address.
 
-If the user asks for exact wording, do not provide it. Explain which judgment and evidence should be prepared, then recommend professional support for concrete communication strategy.
+## Risk Escalation
 
-### Over-Explanation Risk
-
-Common traps:
-
-- explaining technology before user value
-- listing too many use cases
-- using market size to avoid customer detail
-- describing future platform before current deliverable
-- defending every weakness instead of prioritizing it
-
-Name the likely trap in the user's project. Do not write a speech to avoid it.
-
-## Follow-Up Materials
-
-Possible follow-up materials include:
-
-- one-page summary
-- customer validation note
-- competitor comparison
-- product flow screenshot or text description
-- unit economics explanation
-- financing milestone table
-- risk and assumption note
-
-This skill can locate which follow-up material is missing and what question it should answer. It should not draft the final material.
-
-## Reverse Screening Investors
-
-When the founder asks whether to meet a fund or investor, help locate fit questions without making an investment or reputation judgment.
-
-Useful fit questions:
-
-- Does this investor understand the current stage?
-- Can this investor lead or only follow?
-- Does the firm have internal conviction in this category?
-- Can this investor help the next financing round?
-- Are there strategic constraints behind the money?
-- What non-money resources are actually relevant?
-
-Use host search for current public facts when available. If search is unavailable, provide search queries.
+Recommend qualified professional review for securities, legal, tax,
+confidentiality, data-room, transaction, valuation, or negotiation questions.

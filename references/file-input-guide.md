@@ -1,58 +1,53 @@
-# 文件与材料输入指南
+# File And Material Input Guide
 
-Use this file when the user has no BP, has an unreadable file, or asks what to provide.
+## Read What Already Exists
 
-## Core Rule
+Before asking for more material, inspect all files, pasted text, project
+descriptions, and relevant conversation context already available.
 
-Do not ask whether a BP was uploaded if the current context already shows whether material exists.
+Do not ask whether a pitch deck was uploaded. Verify it directly.
 
-If a file is readable, use it.
+## Supported Material
 
-If a file is present but unreadable, say the current environment cannot read it and ask for key text instead.
+Use any format the host can read, including:
 
-If no file is present, tell the user they can upload a BP/PPT/PDF or paste key material, but do not block the work if they prefer to start from a natural-language description.
+- PDF or PPT pitch decks
+- DOCX or Markdown documents
+- spreadsheets and financial tables
+- screenshots
+- one-pagers and memos
+- pasted text
+- natural-language project descriptions
 
-## Useful Material To Paste
+Use the host's native file, OCR, spreadsheet, slide, or PDF capability when
+available. Do not claim to have read content that the host could not extract.
 
-The user can paste:
+## If A File Cannot Be Read
 
-- first 3-5 BP pages
-- project one-liner
-- product or service description
-- target user and customer
-- current validation
-- business model page
-- growth or go-to-market page
-- team page
-- financing plan page
-- investor feedback or questions already received
+State the limitation precisely. Ask for the smallest useful substitute:
 
-## Partial Material Handling
+- export the deck to PDF
+- paste the first page, product section, validation section, business model,
+  team, use of funds, and current ask
+- provide screenshots of the relevant pages
+- summarize the current product, user, transaction, evidence, team, and next
+  milestone
 
-If material is partial, still proceed.
+Do not block the user. Offer to proceed from the available material and label
+the resulting judgment limits.
 
-Mark which judgments are limited:
+## No Pitch Deck
 
-- missing user and customer information limits value-anchor judgment
-- missing payment or usage evidence limits demand-strength judgment
-- missing business model limits transaction judgment
-- missing financing use limits financing-story judgment
-- missing team information limits founder-opportunity fit judgment
+A pitch deck is not required. For an idea-stage project, work from the user's
+description, prototype information, user research, or operating facts. The
+diagnosis should identify what remains unclear and what evidence is missing,
+not pretend that a mature fundraising case already exists.
 
-Do not pretend to have read unreadable files or unavailable pages.
+## Sensitive Information
 
-## Privacy Reminder
+Ask for only what is necessary. Recommend removing credentials, personal
+identifiers, customer lists, bank details, unpublished contracts, and other
+unnecessary confidential information.
 
-Ask users to remove or mask sensitive information before sharing:
-
-- identity numbers
-- phone numbers
-- private addresses
-- customer names
-- contract parties
-- bank details
-- credentials
-- private financial details
-- confidential partner terms
-
-If sensitive information appears, avoid repeating it unless necessary for the diagnosis.
+The skill itself has no upload or network client. The host environment controls
+file processing and data retention.

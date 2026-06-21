@@ -1,98 +1,121 @@
-# 早期项目问题定位助手
+# Startup Problem Finder
 
-`early-stage-startup-problem-finder` is a universal AI skill for early-stage startup problem location. It is designed for Codex, Claude Code, OpenClaw, and other agents that can load a standard `SKILL.md` skill directory.
+`startup-problem-finder` is a cross-agent skill for finding clarity gaps,
+business-model breaks, fundraising-story gaps, pitch-deck blockers, and likely
+investor questions in idea-stage through Series A startups.
 
-It helps founders and early financing professionals locate where an idea, BP, fundraising material, or investor conversation may get stuck. It is most useful from idea stage through Series A and pre-Series-A preparation.
+It is designed for founders preparing an early project or fundraising material.
+An investor or adviser may also use it to structure questions before a founder
+meeting. It does not issue invest-or-pass recommendations.
 
 ## What It Does
 
-- Reviews startup ideas, BP text, decks, one-pagers, memos, and pasted project descriptions.
-- Reads available material first, then asks one material-grounded intake round.
-- Locates problems in the value anchor, business model, fundraising story, BP structure, investor blockers, meeting risks, and funding path.
-- Lists investor questions without providing answer templates.
-- Keeps follow-up discussions tied to the user's original material and diagnosed issues.
-- Gives search-query suggestions when current public facts are needed but search is unavailable.
+- reads the material already provided before asking questions
+- asks one concise, project-specific intake round
+- checks whether the project can be understood clearly
+- locates business-model and fundraising-story breaks
+- finds pitch-deck claims, gaps, contradictions, and attention blockers
+- lists likely investor questions without supplying scripted answers
+- organizes next checks and states judgment limits
+- uses current web research when the host supports it, or provides search
+  queries when it does not
 
-## What It Does Not Do
+The workflow finds problems and evidence gaps. It does not write a finished
+pitch deck, fundraising narrative, investor answer, or meeting script.
 
-- Write BP copy or page-ready rewrites.
-- Write fundraising story copy.
-- Provide investor answer templates or meeting scripts.
-- Provide valuation, dilution, deal, legal, tax, securities, investment, or fundraising-success advice.
-- Help fabricate evidence, conceal risk, mislead investors, or evade rules.
+## Requirements
 
-## Installation
+- An agent that can load a directory containing `SKILL.md`.
+- A file-reading tool if you want the agent to inspect PDF, PPT, DOCX, or local
+  files. If the host cannot read a file, paste the key text or export it to a
+  supported format.
+- A search tool only when current market, fund, policy, or competitor facts are
+  needed. The core diagnosis works without internet access.
+
+## Install
+
+Clone the repository into the appropriate skill directory.
 
 ### Codex
 
-Copy the full folder into:
-
-```text
-~/.codex/skills/early-stage-startup-problem-finder
+```bash
+git clone https://github.com/lsall357357/startup-problem-finder.git \
+  ~/.codex/skills/startup-problem-finder
 ```
-
-Keep `SKILL.md`, `references/`, `agents/`, `scripts/`, and `examples/` together.
 
 ### Claude Code
 
-Copy the full folder into the skills or workspace location your Claude Code setup reads from. The required entrypoint is `SKILL.md`; the reference files under `references/` must stay in the same relative location.
+```bash
+git clone https://github.com/lsall357357/startup-problem-finder.git \
+  ~/.claude/skills/startup-problem-finder
+```
+
+For a project-only installation, clone or copy the folder to:
+
+```text
+.claude/skills/startup-problem-finder
+```
 
 ### OpenClaw
 
-Copy the full folder into the OpenClaw workspace skills directory. Do not flatten the `references/` directory.
-
-### Generic Agents
-
-Load `SKILL.md` first. When the instructions mention a reference file, read that file from `references/` before answering.
-
-## Example Prompts
-
-```text
-我有个创业想法，帮我看看有没有问题
-```
-
-```text
-帮我看 BP 哪里会被投资人卡住
-```
-
-```text
-投资人可能会问什么
-```
-
-```text
-我的价值锚点清不清楚
-```
-
-```text
-BP 第一页帮我看哪里不清楚
-```
-
-## Expected First-Step Behavior
-
-For a normal project request, the assistant should not immediately diagnose. It should first read the material already provided by the user, then ask one short intake round based on project facts and material gaps.
-
-The user can skip the questions and ask the assistant to start directly. The assistant should then diagnose based on the available material and mark judgment limits.
-
-## Validation
-
-Run:
-
 ```bash
-python3 scripts/validate_skill.py .
+git clone https://github.com/lsall357357/startup-problem-finder.git \
+  ~/.openclaw/skills/startup-problem-finder
 ```
 
-Optional package build:
+OpenClaw may also load the skill from a workspace `skills/` directory or an
+extra directory configured by the user.
 
-```bash
-python3 scripts/package_skill.py .
-```
+### Other Agents
 
-The packaging script creates a zip in `dist/` and excludes local caches, system files, private listing files, and generated archives.
+Keep `SKILL.md` and `references/` together. Configure the agent to load
+`SKILL.md` as the entrypoint and follow the resource map when a referenced
+workflow is needed.
 
-## Privacy And Safety
+## Example Requests
 
-This package contains no external links, API clients, network calls, crawlers, or upload code. Material handling depends on the host assistant and tools that load the skill.
+- "I have a startup idea. Help me find what is unclear."
+- "Read this pitch deck and show me where investors may get stuck."
+- "Roast this project professionally."
+- "Use a VC lens on the fundraising story."
+- "What questions should I expect in a founder meeting?"
+- "Does the business model connect to the use of funds?"
+- "What does this skill do and what material should I provide?"
 
-Before sharing materials, remove unnecessary sensitive information such as personal IDs, phone numbers, customer lists, bank accounts, credentials, private keys, contracts, and unpublished financial details.
+The first project response reads the available material, summarizes what was
+available, and asks one optional intake round. The user may skip the questions
+and request an immediate diagnosis based on current information.
 
-See `SECURITY.md` for refusal boundaries and reporting guidance.
+## Scope
+
+Primary scope:
+
+- idea-stage projects
+- prototype and MVP projects
+- angel, seed, pre-Series A, and Series A preparation
+- pitch decks, one-pagers, memos, and pasted fundraising material
+- founder-meeting preparation and investor-question organization
+
+Post-Series-A requests receive limited support on material clarity, question
+organization, and public-information research. The skill is not designed for
+growth-stage transaction strategy, M&A, debt structuring, or complex finance.
+
+## Privacy
+
+The skill package contains no external API integration, crawler, analytics, or
+automatic upload code. It does not independently transmit project material.
+
+The host agent may use cloud models, plugins, file processors, or search tools.
+Its privacy policy and configuration determine where user data is processed.
+Remove credentials, personal identifiers, customer lists, bank details,
+unpublished contracts, and other unnecessary sensitive information before
+sharing material with any agent.
+
+## Limits
+
+The skill does not provide legal, tax, accounting, securities, valuation,
+investment, transaction, or fundraising-success advice. Calculations and
+public research still require professional verification when they affect a
+real decision.
+
+See `SECURITY.md` for security and reporting information.
