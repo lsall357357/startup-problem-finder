@@ -2,13 +2,13 @@
 
 ## Supported Version
 
-Security and behavior fixes are maintained for the latest release.
+Security and behavior fixes are maintained on the public `main` branch.
 
 ## Data Handling
 
-This repository contains instructions, reference documents, validation code,
-and packaging code. The runtime skill has no external API client, crawler,
-analytics, credential collection, or automatic upload behavior.
+This repository contains the skill entrypoint, reference documents, public
+usage notes, and safety guidance. The skill has no external API client,
+crawler, analytics, credential collection, or automatic upload behavior.
 
 The host agent controls model calls, file access, plugins, search, and data
 retention. Review the host's privacy policy and local configuration before

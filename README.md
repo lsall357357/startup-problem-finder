@@ -102,7 +102,7 @@ growth-stage transaction strategy, M&A, debt structuring, or complex finance.
 
 ## Privacy
 
-The skill package contains no external API integration, crawler, analytics, or
+The skill repository contains no external API integration, crawler, analytics, or
 automatic upload code. It does not independently transmit project material.
 
 The host agent may use cloud models, plugins, file processors, or search tools.
