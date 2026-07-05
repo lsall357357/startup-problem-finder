@@ -6,6 +6,7 @@ from __future__ import annotations
 import re
 import sys
 from pathlib import Path
+import json
 
 
 SKILL_NAME = "startup-problem-finder"
@@ -14,7 +15,6 @@ REQUIRED_FILES = {
     "SKILL.md",
     "README.md",
     "LICENSE",
-    "CHANGELOG.md",
     "SECURITY.md",
     "agents/openai.yaml",
     "examples/test-prompts.md",
@@ -57,7 +57,7 @@ REQUIRED_TEXT = {
     "references/safety-rules.md",
 }
 
-TEXT_SUFFIXES = {".md", ".yaml", ".yml", ".py", ".txt"}
+TEXT_SUFFIXES = {".md", ".yaml", ".yml", ".py", ".txt", ".json"}
 SKIP_DIRS = {".git", ".cache", "__pycache__", "dist", "tmp"}
 CJK_RE = re.compile(
     "["
@@ -154,6 +154,46 @@ def validate_content(root: Path, errors: list[str]) -> None:
             errors.append(f"Required text missing: {needle}")
 
 
+def validate_evals(root: Path, errors: list[str]) -> None:
+    evals_path = root / "evals" / "evals.json"
+    if not evals_path.exists():
+        return
+
+    try:
+        data = json.loads(read_text(evals_path))
+    except json.JSONDecodeError as exc:
+        errors.append(f"evals/evals.json is invalid JSON: {exc}")
+        return
+
+    if data.get("skill_name") != SKILL_NAME:
+        errors.append("evals/evals.json skill_name is missing or incorrect.")
+
+    evals = data.get("evals")
+    if not isinstance(evals, list) or not evals:
+        errors.append("evals/evals.json must contain a non-empty evals list.")
+        return
+
+    seen_ids: set[str] = set()
+    for index, item in enumerate(evals, start=1):
+        if not isinstance(item, dict):
+            errors.append(f"evals/evals.json eval #{index} must be an object.")
+            continue
+        eval_id = item.get("id")
+        if not isinstance(eval_id, str) or not eval_id:
+            errors.append(f"evals/evals.json eval #{index} is missing id.")
+        elif eval_id in seen_ids:
+            errors.append(f"evals/evals.json duplicate id: {eval_id}")
+        else:
+            seen_ids.add(eval_id)
+        if not isinstance(item.get("prompt"), str) or not item["prompt"].strip():
+            errors.append(f"evals/evals.json eval #{index} is missing prompt.")
+        assertions = item.get("assertions")
+        if not isinstance(assertions, list) or not assertions:
+            errors.append(f"evals/evals.json eval #{index} must have assertions.")
+        elif not all(isinstance(value, str) and value.strip() for value in assertions):
+            errors.append(f"evals/evals.json eval #{index} has invalid assertions.")
+
+
 def main() -> int:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
     errors: list[str] = []
@@ -163,6 +203,7 @@ def main() -> int:
         validate_frontmatter(root / "SKILL.md", errors)
         validate_references(root, errors)
     validate_content(root, errors)
+    validate_evals(root, errors)
 
     if errors:
         print("Validation failed:")

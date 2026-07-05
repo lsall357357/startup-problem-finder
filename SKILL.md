@@ -94,6 +94,29 @@ clarity, investor-question organization, meeting risks, public-information
 organization, or search queries. Do not provide growth-stage transaction,
 valuation, debt, M&A, legal, tax, or financing strategy.
 
+## Host Capabilities And Fallbacks
+
+Required host capabilities are minimal: the host must be able to read this
+`SKILL.md` file and the bundled `references/` files.
+
+Preferred capabilities improve the diagnosis but are not required:
+
+- file reading for PDF, PPT, DOCX, images, pasted text, or local files
+- web search for current facts about funds, investors, competitors, markets,
+  policies, or recent financing events
+
+Fallback rules:
+
+- if files cannot be read, ask for the smallest useful substitute from
+  `references/file-input-guide.md`
+- if current web search is unavailable, provide copyable search queries and say
+  current verification was not possible
+- if the user skips intake questions, diagnose from available material and
+  state judgment limits
+
+The package itself contains no API client, crawler, analytics, upload logic, or
+external-service dependency. Data handling depends on the host agent.
+
 ## Review Material Before Intake
 
 Except for safety refusals and protected-information questions, do not give a

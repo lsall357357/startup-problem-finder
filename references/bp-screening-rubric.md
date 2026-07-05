@@ -94,6 +94,15 @@ as hypotheses unless there is evidence.
 Check whether the market claim matches the actual product, geography, customer,
 and price. Separate source data from founder calculations.
 
+Large market numbers, policy momentum, category growth, and industry adoption
+statistics can support the opportunity background. They do not prove the
+project has captured demand. Treat them as context, not company evidence.
+
+When a deck uses market size as traction, flag the gap directly: the data shows
+that a market may exist, but it does not show this project has users, orders,
+retention, paid pilots, channel access, delivery repeatability, or pricing
+power.
+
 Competition should include direct products, adjacent products, manual work,
 internal teams, and doing nothing. Flag feature matrices that use self-selected
 dimensions or ignore stronger substitutes.

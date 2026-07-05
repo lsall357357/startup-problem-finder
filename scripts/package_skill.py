@@ -19,7 +19,9 @@ INCLUDED_ROOT_FILES = {
 
 INCLUDED_DIRS = {
     "agents",
+    "examples",
     "references",
+    "scripts",
 }
 
 
@@ -27,6 +29,10 @@ def should_include(path: Path, root: Path) -> bool:
     if not path.is_file():
         return False
     rel = path.relative_to(root)
+    if any(part in {".git", "__pycache__", "dist", "tmp"} for part in rel.parts):
+        return False
+    if path.suffix in {".pyc", ".zip", ".skill"} or path.name == ".DS_Store":
+        return False
     if len(rel.parts) == 1:
         return rel.name in INCLUDED_ROOT_FILES
     return rel.parts[0] in INCLUDED_DIRS
