@@ -15,10 +15,10 @@ When the user supplies new facts or files:
 If the user asks for a complete reassessment, rerun the first-diagnosis
 coverage using all current material.
 
-## Skill Introduction And Privacy
+## Skill Introduction, Security And Privacy
 
 For questions about purpose, users, inputs, installation, workflow, or limits,
-read `README.md`. For privacy, refusal, or security questions, also read
+read `README.md`. For privacy, refusal, or security questions, read
 `SECURITY.md`. Do not start project intake.
 
 ## Public And Protected Information

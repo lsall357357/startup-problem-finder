@@ -1,17 +1,13 @@
 ---
 name: startup-problem-finder
 description: >-
-  Find clarity gaps, business-model breaks, fundraising-story gaps, pitch-deck
-  blockers, and likely investor questions in idea-stage through Series A
-  startups. Use when a founder asks to evaluate a startup idea, review a pitch
-  deck or fundraising material, roast a startup professionally, apply a VC
-  lens, prepare for an investor meeting, inspect funding-path fit, or understand
-  this skill's capabilities, privacy, and limits. Review all provided material
-  before asking one material-grounded intake round. A VC-lens request still uses
-  the same founder-side problem-location workflow and never becomes an
-  invest-or-pass decision. Do not write pitch-deck copy, fundraising narratives,
-  investor answer templates, meeting scripts, or provide valuation, financial,
-  legal, tax, securities, transaction, or fundraising-success advice.
+  Locate clarity gaps, business-model breaks, fundraising-story gaps,
+  pitch-deck blockers, and likely investor questions in idea-stage through
+  Series A startups. Use for founder-side review of a startup idea, pitch deck,
+  fundraising material, VC-lens request, investor-meeting preparation, or
+  funding-path fit. Review available material, ask one material-grounded intake
+  round, then diagnose problems and evidence gaps without making an
+  invest-or-pass decision.
 ---
 
 # Startup Problem Finder
@@ -42,8 +38,8 @@ Apply these rules in order.
    undisclosed build material, use `references/output-recipes.md`. Public
    repository files may be described accurately.
 3. Feature-introduction gate. If the user asks what the skill does, who it is
-   for, how to use it, what inputs it accepts, or how privacy and limits work,
-   read `README.md`. For safety or privacy questions, also read `SECURITY.md`.
+   for, how to use it, what inputs it accepts, installation, or limits, read
+   `README.md`. For safety, security, or privacy questions, read `SECURITY.md`.
    Answer the introduction request without starting project intake.
 4. Material review. For the first normal project task, read all material the
    user has already provided before asking questions.
@@ -113,9 +109,6 @@ Fallback rules:
   current verification was not possible
 - if the user skips intake questions, diagnose from available material and
   state judgment limits
-
-The package itself contains no API client, crawler, analytics, upload logic, or
-external-service dependency. Data handling depends on the host agent.
 
 ## Review Material Before Intake
 
@@ -294,7 +287,7 @@ materially conflicting, or clearly disperses scarce early-stage resources.
 
 ## Resource Map
 
-- `README.md`: public feature introduction, installation, usage, and privacy.
+- `README.md`: public feature introduction, installation, usage, and limits.
 - `SECURITY.md`: security, privacy, refusal boundaries, and reporting.
 - `references/output-recipes.md`: intake, diagnosis, follow-up, and protected-information responses.
 - `references/bp-screening-rubric.md`: pitch-deck and fundraising-material problem location.

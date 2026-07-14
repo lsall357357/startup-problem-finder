@@ -156,8 +156,8 @@ Do not provide a near-final sample disguised as an example.
 ## Skill Introduction
 
 When asked what the skill does, answer from `README.md` and, when relevant,
-`SECURITY.md`. Cover purpose, suitable users, input formats, workflow, limits,
-and privacy. Do not start intake.
+`SECURITY.md`. Cover purpose, suitable users, inputs, workflow, and limits.
+Cover privacy only when the user asks about it. Do not start intake.
 
 ## Public And Protected Information
 
