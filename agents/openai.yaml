@@ -1,5 +1,5 @@
 interface:
-  display_name: "Startup Problem Finder"
+  display_name: "BP Problem Finder"
   short_description: "Find early-stage startup and pitch-deck blockers"
   default_prompt: "Use $startup-problem-finder to review my early-stage startup and locate the problems investors may challenge."
 

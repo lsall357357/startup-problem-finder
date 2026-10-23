@@ -1,4 +1,4 @@
-# Startup Problem Finder
+# BP Problem Finder
 
 `startup-problem-finder` helps founders locate clarity gaps, business-model
 breaks, fundraising-story gaps, pitch-deck blockers, and likely investor
@@ -68,6 +68,41 @@ git clone https://github.com/lsall357357/startup-problem-finder.git \
 
 For another agent, copy the folder to its configured skills directory and load
 `SKILL.md` as the entrypoint.
+
+### Manual Installation (ZIP)
+
+Download the [current install package](https://github.com/lsall357357/startup-problem-finder/releases/latest/download/startup-problem-finder.zip),
+extract it, and place the complete `startup-problem-finder/` folder in your
+agent's skill directory. Keep `SKILL.md`, `references/`, and `agents/` together.
+
+The ZIP is a ready-to-copy snapshot of the same skill files in the repository.
+It is not an executable installer and does not update an existing installation
+automatically. Use it when you prefer downloading files to cloning with Git.
+
+### Update an Existing Installation
+
+For a Git-based Codex installation:
+
+```bash
+git -C ~/.codex/skills/startup-problem-finder pull --ff-only
+```
+
+Use the corresponding installation path for another agent. If the checkout
+contains local edits, preserve them before updating.
+
+For a ZIP-based installation, download the current package again and replace
+the previously installed skill folder after preserving any local edits. Do not
+merge it into an old folder, which can leave obsolete files behind.
+
+Keep only one edition of this skill in active skill directories. If replacing
+an older `early-stage-startup-problem-finder` or
+`startup-roast-check-vc-lens` installation, move that copy outside the active
+skill directories before installing this edition. Historical copies can remain
+in an ordinary project or archive directory.
+
+Both methods install the English distribution; replies follow the user's
+language. File reading and current-information research depend on the host
+agent's capabilities.
 
 ## Security
 

@@ -10,10 +10,9 @@ description: >-
   invest-or-pass decision.
 ---
 
-# Startup Problem Finder
+# BP Problem Finder
 
-Use this skill to locate problems in early-stage startup ideas, pitch decks,
-fundraising narratives, and investor-meeting preparation.
+Use this skill to find problems in early-stage startup ideas, BP materials, fundraising narratives, and investor communication preparation.
 
 Respond in the user's language. The files in this package are English-only, but
 the workflow is language-independent.
