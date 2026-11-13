@@ -4,6 +4,19 @@
 breaks, fundraising-story gaps, pitch-deck blockers, and likely investor
 questions in idea-stage through Series A projects.
 
+## 中文简介
+
+`startup-problem-finder`（BP 体检）面向种子期到 A 轮的创业者：把你的项目介绍、
+BP / 商业计划书、融资材料交给 Agent，它帮你找出表达断点、商业模式漏洞、
+融资故事不成立的地方、无证据的主张与自相矛盾之处，并整理出投资人最可能
+追问的问题和下一步该优先补的功课。
+
+适用场景：融资前 BP 诊断、路演准备、投资人见面预演、被问住之前先自查。
+它只做创始人侧的问题定位，不做投 / 不投的判断，也不代写 BP。
+
+用法与英文版相同：给出材料，说一句「帮我看看这个 BP，投资人会在哪里卡住」，
+即可开始。回复语言跟随你提问的语言。
+
 ## What It Helps With
 
 - reviews the project material already available
@@ -42,6 +55,15 @@ The skill does not make investment decisions or provide valuation, legal, tax,
 securities, transaction, or fundraising-success advice.
 
 ## Install
+
+### Quick Install (skills CLI)
+
+```bash
+npx skills add lsall357357/startup-problem-finder
+```
+
+Works with Claude Code, Codex, and other agents supported by the skills CLI.
+For manual control over the install location, use one of the methods below.
 
 Keep `SKILL.md` and `references/` together in your agent's skill directory.
 

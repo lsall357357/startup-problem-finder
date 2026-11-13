@@ -3,11 +3,13 @@ name: startup-problem-finder
 description: >-
   Locate clarity gaps, business-model breaks, fundraising-story gaps,
   pitch-deck blockers, and likely investor questions in idea-stage through
-  Series A startups. Use for founder-side review of a startup idea, pitch deck,
-  fundraising material, VC-lens request, investor-meeting preparation, or
-  funding-path fit. Review available material, ask one material-grounded intake
-  round, then diagnose problems and evidence gaps without making an
-  invest-or-pass decision.
+  Series A startups. Use for founder-side review of a startup idea, pitch deck
+  review, fundraising material, VC-lens request, investor-meeting preparation,
+  investor Q&A rehearsal, or funding-path fit. Also use when a founder asks in
+  Chinese: BP 体检、帮我看看 BP、商业计划书诊断、融资故事梳理、投资人会问什么、
+  路演准备（种子期 / 天使轮 / Pre-A / A 轮）. Review available material, ask one
+  material-grounded intake round, then diagnose problems and evidence gaps
+  without making an invest-or-pass decision.
 ---
 
 # BP Problem Finder
