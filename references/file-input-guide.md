@@ -2,10 +2,9 @@
 
 ## Read What Already Exists
 
-Before asking for more material, inspect all files, pasted text, project
-descriptions, and relevant conversation context already available.
-
-Do not ask whether a pitch deck was uploaded. Verify it directly.
+Inspect the supplied files, pasted text, and relevant conversation context.
+Use the user's identified submission. If several versions exist and the
+intended one cannot be determined, ask which version to review.
 
 ## Supported Material
 
@@ -19,22 +18,40 @@ Use any format the host can read, including:
 - pasted text
 - natural-language project descriptions
 
-Use the host's native file, OCR, spreadsheet, slide, or PDF capability when
-available. Do not claim to have read content that the host could not extract.
+Use the host's native file, spreadsheet, slide, PDF, image, or OCR capabilities
+when available.
 
-## If A File Cannot Be Read
+## Whole-Deck Review
 
-State the limitation precisely. Ask for the smallest useful substitute:
+Browse every page or slide, including appendices. Account for all pages even
+when the text extractor omits some. Extracted text is enough for plain-text
+pages. Inspect the page image when the evidence is in a product screenshot,
+workflow diagram, operating or financial chart, table, or footnote. Also
+inspect pages with little or no extracted text, including title-only output
+that may hide an embedded image. Use a clear page image supplied by the host
+when available.
 
-- export the deck to PDF
-- paste the first page, product section, validation section, business model,
-  team, use of funds, and current ask
-- provide screenshots of the relevant pages
-- summarize the current product, user, transaction, evidence, team, and next
-  milestone
+For material that is hard to read, first try zooming, cropping, or rendering
+at a higher resolution. Use OCR if needed. For numbers that affect findings,
+check the original layout for row and column headings, units, periods, legend,
+and footnotes. A sequence of OCR tokens alone cannot establish which numbers
+are actuals, forecasts, or results for different groups.
 
-Do not block the user. Offer to proceed from the available material and label
-the resulting judgment limits.
+Before describing an omission, unclear wording, or a conflict, check the
+relevant original pages, surrounding context, and appendix. For example, a
+revenue chart may use a definition stated only in the appendix.
+
+## Missing Or Unreadable Material
+
+If a page, chart, or footnote cannot be read reliably, state the location and
+which judgment it limits. For example, "The note on page 12 is unreadable, so I
+cannot determine which revenue the chart includes." Treat the definition as
+missing from the BP only after checking the relevant readable material.
+
+Complete the assessment of the readable portions. If the unreadable or
+unavailable portion prevents an important judgment, request the smallest
+useful substitute, such as a clear image or text of the relevant page. Ask for
+a readable file if no usable version of the submission is available.
 
 ## No Pitch Deck
 
@@ -43,11 +60,9 @@ description, prototype information, user research, or operating facts. The
 diagnosis should identify what remains unclear and what evidence is missing,
 not pretend that a mature fundraising case already exists.
 
-## Sensitive Information
+## Names And Identifiers
 
-Ask for only what is necessary. Recommend removing credentials, personal
-identifiers, customer lists, bank details, unpublished contracts, and other
-unnecessary confidential information.
-
-The skill itself has no upload or network client. The host environment controls
-file processing and data retention.
+Use project and organization names as supplied in the user's material.
+Anonymize them when the user requests it. Request only the additional material
+needed for the review and follow the disclosure guidance in
+`references/safety-rules.md`.

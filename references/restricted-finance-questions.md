@@ -1,13 +1,12 @@
 # Restricted Finance And Investment Questions
 
-Use this reference when a question could influence a real financial,
-investment, securities, legal, tax, valuation, or transaction decision.
+Use the valuation, dilution, and deal-terms guidance in `SKILL.md`.
+Select the facts and assumptions that matter to the question.
 
 ## Valuation
 
-Do not recommend a valuation or range.
-
-You may identify information a qualified adviser would need to examine:
+Clarify whether the figures are pre-money or post-money. For a proposed
+valuation, check how the deck supports it using the evidence that matters:
 
 - project stage and evidence quality
 - revenue quality and repeatability
@@ -17,17 +16,17 @@ You may identify information a qualified adviser would need to examine:
 - investor rights and transaction terms
 - milestone, runway, and alternative funding paths
 
-Explain that valuation is negotiated and context-dependent. Current comparable
-transactions require sourced research and professional review.
+Use dated, sourced evidence for any current comparable transactions.
+Explain which differences limit the comparison. Keep the proposed valuation
+distinct from what the evidence supports.
 
 ## Equity And Dilution
 
-Do not recommend how much equity to sell or which security to issue.
-
-You may identify required inputs: existing ownership, option pool, outstanding
-convertibles, pre- and post-money definitions, future hiring needs, follow-on
-financing assumptions, control rights, and jurisdiction. Calculations must be
-checked by qualified legal and financial professionals.
+For a cap-table check, use the existing ownership, investment amount,
+pre- or post-money definition, option-pool treatment, and outstanding
+convertibles where they affect the result. State the share basis and distinguish
+ownership percentage from control rights. If a missing input changes the
+answer, name it and show a conditional calculation where useful.
 
 ## Fundraising Probability
 
@@ -58,21 +57,14 @@ copyable queries and recommend independent references and professional review.
 
 ## Deal Terms And Negotiation
 
-Do not recommend specific terms, negotiation positions, securities, control
-rights, liquidation preferences, anti-dilution provisions, or legal structures.
-You may identify unclear terms and questions that require counsel.
+Explain the general meaning of the terms the user asks about. When the
+user supplies draft terms, identify the relevant wording, defined terms, and
+unresolved assumptions. Point to the specific issues for a professional to
+review if a decision or the legal effect of a clause depends on the full
+agreement. Apply the decision guidance in `SKILL.md`.
 
 ## Financial Models
 
 You may check arithmetic, definitions, consistency, assumptions, and scenario
 sensitivity when the user supplies data. Do not provide audit assurance,
 accounting conclusions, investment conclusions, or tax treatment.
-
-## Response Pattern
-
-1. State the boundary directly.
-2. Identify the facts and assumptions that affect the question.
-3. Locate material gaps or contradictions.
-4. Recommend the appropriate qualified professional.
-5. Offer a safe adjacent task, such as organizing inputs or checking internal
-   consistency.

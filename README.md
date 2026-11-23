@@ -32,17 +32,18 @@ finished pitch-deck, fundraising, answer, or meeting copy.
 
 ## Start
 
-Provide a project description, pitch deck, one-pager, memo, or other readable
-material, then say what you want reviewed:
+Provide a pitch deck, one-pager, memo, or other readable material, then say what
+you want reviewed:
 
 ```text
-Review this startup and show me where investors may get stuck.
+Review this pitch deck and show me where investors may get stuck.
 ```
 
-The agent reads the available material and asks one concise, project-specific
-intake round. You can reply “start now” to continue from the material already
-available. If a file cannot be read, paste the relevant text, provide a
-screenshot, or summarize the core facts.
+The agent gives a first assessment from the supplied material and identifies
+gaps that affect a reader's judgment. For a full deck review, it checks the
+pages and appendices, including visual evidence when the host can read it. If
+a critical page is unreadable, it explains what cannot be judged and asks for
+just the relevant text or a clearer image.
 
 ## Scope
 
@@ -116,15 +117,8 @@ For a ZIP-based installation, download the current package again and replace
 the previously installed skill folder after preserving any local edits. Do not
 merge it into an old folder, which can leave obsolete files behind.
 
-Keep only one edition of this skill in active skill directories. If replacing
-an older `early-stage-startup-problem-finder` or
-`startup-roast-check-vc-lens` installation, move that copy outside the active
-skill directories before installing this edition. Historical copies can remain
-in an ordinary project or archive directory.
-
-Both methods install the English distribution; replies follow the user's
-language. File reading and current-information research depend on the host
-agent's capabilities.
+When replacing an older edition, move the old copy outside the active skill
+directories so the agent loads only one copy.
 
 ## Security
 

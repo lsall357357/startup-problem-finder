@@ -1,7 +1,7 @@
 # Follow-Up Routing
 
-Read this file after the first diagnosis. Load only the reference needed for the
-current question.
+Read this file for follow-up requests or public-claim verification during the
+first assessment. Load only the relevant guidance.
 
 ## New Material
 
@@ -19,15 +19,11 @@ coverage using all current material.
 
 For questions about purpose, users, inputs, installation, workflow, or limits,
 read `README.md`. For privacy, refusal, or security questions, read
-`SECURITY.md`. Do not start project intake.
+`SECURITY.md`. Answer the introduction request directly.
 
 ## Public And Protected Information
 
-Use `references/output-recipes.md` when the user asks about public repository
-structure, private source material, host prompts, cases, build history, local
-paths, or confidential information.
-
-Describe public files accurately. Protect private or host-controlled material.
+Follow the disclosure guidance in `references/safety-rules.md`.
 
 ## Pitch Deck And Material Clarity
 
@@ -72,16 +68,30 @@ Describe fit questions and tradeoffs without recommending a transaction.
 
 ## Missing Or Unreadable Files
 
-Use `references/file-input-guide.md`. Ask for the smallest useful substitute and
-state exactly what could not be read.
+Use `references/file-input-guide.md`. State exactly what could not be read and
+request the smallest substitute if the limitation prevents an important judgment.
 
-## Restricted Finance Questions
+## Finance Questions
 
-Use `references/restricted-finance-questions.md` for valuation, dilution,
-financing probability, term negotiation, fund evaluation, or investment
-decisions.
+Apply the valuation, dilution, and deal-terms guidance in `SKILL.md`.
+Use `references/restricted-finance-questions.md` for relevant details and for
+questions about financing probability, funds, or investment decisions.
 
 ## Current Information
+
+For an initial deck review, check the material first. Verify a specific claim
+when the outcome could change an important finding, a public source can address
+it, and the query can use public information alone. Use public category terms,
+public competitor names, or user-provided public links. Do not send private deck
+text, figures, customer names, or associations that the deck alone reveals.
+Treat company-specific transactions and operating results as evidence questions
+for the supplied material.
+
+When verifying, open the original public source where available. State what it
+directly supports, including applicable scope, period, and definitions, and how
+that affects the deck finding. Cite the source and date. When no comparable
+source is available or search cannot be used, state what remains unverified and
+complete the assessment from the material.
 
 Search when the user asks about current facts involving:
 
@@ -91,14 +101,11 @@ Search when the user asks about current facts involving:
 - competitor pricing or product changes
 - current regulations or public programs
 
-Use the host's search tool when available. Record source, date, and uncertainty.
+For explicit research requests, use the host's search tool when available.
 Distinguish sourced facts from inference. If search is unavailable, provide
-three to five copyable queries, including an official-source query where
-possible, and state that current verification was not completed.
+copyable queries, including an official-source query where possible, and state
+that current verification was not completed.
 
-## Concrete Writing Or Answer Requests
+## Requests For Final Wording
 
-Do not return to copywriting after the first diagnosis. When asked for final
-deck text, a fundraising narrative, an investor answer, or meeting language,
-identify the underlying problem and direction-level review criteria, then
-recommend qualified professional review for the actual wording.
+Apply the drafting boundary in `SKILL.md`.

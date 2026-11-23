@@ -77,7 +77,14 @@ whether the metric supports the claim attached to it. Do not invent benchmarks.
 
 ## Business Model
 
-Check whether the deck clearly shows:
+Set the standard by the project's stage and what the deck claims. At the idea
+or early prototype stage, the absence of a formed business model alone is not
+a BP weakness. Treat proposed transactions as hypotheses. If the deck says
+the model works, forecasts revenue, or relies on commercialization to justify
+the round, check the assumptions and evidence it presents for that claim.
+
+Check which of these details matter to the claim and whether the deck makes
+them clear:
 
 - who pays
 - what the payer buys
@@ -132,6 +139,31 @@ Cross-check:
 - team count against operating plan
 - use of funds against milestone and hiring plan
 - dates, units, currencies, and time periods
+
+### Final Finding Checks
+
+Once the findings are drafted, verify the exact claims behind the selected main
+BP issue and any limitation in the value-anchor judgment. For each, identify
+the product or subject, its stage, and any relevant scope or metric definition.
+Look through the submitted material for details that clarify, qualify, or
+contradict the finding. Check nearby labels, captions, footnotes, text inside
+figures, and relevant passages on other pages or in appendices. Reopen the
+relevant original page images when extraction is unreliable. If a relevant
+detail remains unreadable, state the judgment it limits.
+
+- **Main BP issue.** Withdraw a criticism the material already answers. If the
+  explanation is present but difficult to find, identify where it appears and
+  how its placement affects understanding. For a genuine conflict, identify
+  both statements and check that they refer to the same scope. When a plan or
+  forecast is already explained, identify any evidence or assumptions needed
+  to support it. If the selected issue changes, compare the supported findings
+  again and choose the one that most affects the reader's judgment.
+- **Value-anchor limitation.** Verify the specific gap named after the clarity
+  judgment. Check whether the material already explains the user, use case,
+  usage steps, or delivered result in question. Base this judgment on the
+  relevant product and stage. Check that the overview, overall assessment,
+  value-anchor judgment, and fundraising story use the same product boundaries
+  and interpret the same claims consistently.
 
 ## User-Facing Output
 

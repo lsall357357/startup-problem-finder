@@ -9,25 +9,18 @@ The value anchor measures whether an investor can see what the project is
 actually doing. It does not measure investability, proof, willingness to pay,
 or market attractiveness.
 
-Internally inspect:
+Try to restate, using only the material, who uses the product, in what
+situation, for which problem, and what result it delivers. Check the product
+or service, user, scenario, problem, and underlying capability as clues.
+Judge clarity by what the material allows the reader to understand. A concrete
+workflow can be clear even when the technology behind it is unstated.
 
-1. capability: the technology, operational ability, asset, or method used
-2. product or service: what is delivered
-3. user: who directly uses or receives it
-4. scenario: where and when the need appears
-5. problem: what friction, cost, risk, or unmet need is addressed
-
-Internal clarity scale:
-
-- five visible elements: basically clear
-- four visible elements: relatively clear
-- three visible elements: not very clear
-- two visible elements: unclear
-- zero or one visible element: completely unclear
-
-This scale is backstage reasoning. Do not show it, mention "five elements", or
-enumerate extracted fields in the user answer. State the clarity conclusion and
-then explain every relevant gap in project-specific prose.
+Distinguish current delivery from planned capabilities. If the material allows
+different readings that change the result, explain the specific ambiguity.
+Base the limitation on the product or service, user, setting, usage steps,
+problem, or delivered result.
+For example, flag whether "automated reconciliation" means generating a list
+of discrepancies or updating the ledger. State the finding in natural prose.
 
 Keep these questions outside the value-anchor judgment:
 
@@ -43,10 +36,15 @@ unclear monetization, or a broken fundraising story.
 
 ## Business Model
 
-Judge whether the material clearly explains the transaction and delivery
-logic. Do not claim that a clear model is proven or attractive.
+Start with the project's stage and the material's claims. If an idea-stage or
+early prototype project has yet to form a business model, describe that as its
+current stage. Describe any proposed transaction as a hypothesis and state
+what would test it when relevant. When the material claims the model works,
+forecasts revenue, or relies on commercialization for the current fundraising
+case, check the transaction, revenue assumptions, and evidence that the claim
+requires. Treat clarity and validation as separate judgments.
 
-Inspect:
+Inspect the details that matter to the stage and claim:
 
 - user, buyer, payer, and decision maker
 - what is purchased and why
@@ -82,9 +80,13 @@ Inspect whether these parts connect:
 - product and validation evidence
 - current constraint
 - use of funds
-- 12-18 month milestone
+- next milestone appropriate to the project's stage and funding objective
 - what the milestone proves
 - why that proof matters for the next stage
+
+For an idea-stage or early prototype project, the next useful result may be a
+test of a specific product or user hypothesis. Assess whether the proposed use
+of funds leads to that result.
 
 Common breaks:
 
@@ -94,7 +96,7 @@ Common breaks:
 - historical evidence and future ambition have no bridge
 - several products or markets compete for the same financing main line
 - the round name is used as proof of maturity
-- vision appears before the first repeatable transaction is explained
+- long-term vision obscures what the current round is meant to validate
 
 ## Direction-Level Checks
 

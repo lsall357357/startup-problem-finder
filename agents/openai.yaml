@@ -1,7 +1,7 @@
 interface:
   display_name: "BP Problem Finder"
-  short_description: "Find early-stage startup and pitch-deck blockers"
-  default_prompt: "Use $startup-problem-finder to review my early-stage startup and locate the problems investors may challenge."
+  short_description: "Review pitch decks for evidence gaps and blockers"
+  default_prompt: "Use $startup-problem-finder to review this pitch deck and show where its claims need clarification or support."
 
 policy:
   allow_implicit_invocation: true

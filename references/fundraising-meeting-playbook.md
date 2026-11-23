@@ -66,5 +66,6 @@ address.
 
 ## Risk Escalation
 
-Recommend qualified professional review for securities, legal, tax,
-confidentiality, data-room, transaction, valuation, or negotiation questions.
+For valuation, dilution, and deal terms, follow the guidance in `SKILL.md`.
+Identify specific issues that need professional review when handling
+securities, legal, tax, confidentiality, or data-room risks.
